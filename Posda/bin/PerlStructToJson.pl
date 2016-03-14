@@ -4,11 +4,13 @@
 #$Revision: 1.1 $
 #
 use Storable qw( fd_retrieve );
-use JSON;
+use JSON::PP;
 #use Debug;
 #my $dbg = sub {print @_};
 my $file = $ARGV[0];
 open FILE, "<$file" or die "can't open $file";
+my $coder = JSON::PP->new->ascii->pretty->allow_blessed;
 my $struct = fd_retrieve(\*FILE);
-my $json = encode_json $struct;
-print $json;
+$pretty_printed = $coder->encode( $struct );
+#my $json = encode_json $struct;
+print $pretty_printed;
