@@ -10,7 +10,7 @@
   ],
   "Apps": {
     "DicomXmlBrowsing": {
-      "Directory": "/Users/bbennett/PosdaToolsTest/Config/DicomXml",
+      "Directory": "/Users/bbennett/posda-gsoc/Config/DicomXml",
       "Application" : "AppController.pl <host> <port> <dir> <color>",
       "Description" : "Browse Docbook Version of DICOM Standard",
       "WindowName" : "_new",
@@ -24,7 +24,7 @@
     },
   },
   "BomDirs": {
-    "Posda": "/Users/bbennett/PosdaToolsTest/Posda",
-    "DicomXml": "/Users/bbennett/PosdaToolsTest/DicomXml",
+    "Posda": "/Users/bbennett/posda-gsoc/Posda",
+    "DicomXml": "/Users/bbennett/posda-gsoc/DicomXml",
   },
 }

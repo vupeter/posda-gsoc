@@ -7,8 +7,8 @@
   "ApplicationInitMethod" : "InitApp",
   "ApplicationLoginMethod" : "NullLogin",
   "ApplicationName" : "Start",
-  "AppHttpRoot" : "/Users/bbennett/PosdaToolsTest/HttpRoot/http_root",
-  "ParsedDicomRoot" : "/Users/bbennett/PosdaToolsTest/ParsedDicom",
-  "DicomXmlRoot" : "/Users/bbennett/PosdaToolsTest/DicomXml/docbook",
-  "ParsedIodRoot" : "/Users/bbennett/PosdaToolsTest/ParsedIods",
+  "AppHttpRoot" : "/Users/bbennett/posda-gsoc/HttpRoot/http_root",
+  "ParsedDicomRoot" : "/Users/bbennett/posda-gsoc/ParsedDicom",
+  "DicomXmlRoot" : "/Users/bbennett/posda-gsoc/DicomXml/docbook",
+  "ParsedIodRoot" : "/Users/bbennett/posda-gsoc/ParsedIods",
 }
