@@ -10,5 +10,5 @@
   "AppHttpRoot" : "/posda-gsoc/HttpRoot/http_root",
   "AuthenticationDbType" : "File",
   "AuthenticationDbFileName" : "/Volumes/5TEncrypted/cache/Login.db",
-  "JavascriptRoot" : "/posda-gsoc/Posda/javascript",
+  "JavascriptRoot" : "/bbennett/posda-gsoc/Posda/javascript",
 }
