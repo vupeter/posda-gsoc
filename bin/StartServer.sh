@@ -1,3 +1,3 @@
 #!/bin/bash
-source /posda-gsoc/Config/SetEnv posda-gsoc
-AppController.pl localhost 64610 /posda-gsoc/Config/AppConfig
+source $HOME/posda-gsoc/Config/SetEnv posda-gsoc
+AppController.pl localhost 64610 $HOME/posda-gsoc/Config/AppConfig

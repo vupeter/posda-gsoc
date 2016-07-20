@@ -9,6 +9,7 @@
 # GNU General Public License, which may be found in the Posda Distribution,
 # or at http://posda.com/License.html
 #
+use lib "/home/turtle-linu/posda-gsoc/Posda/include";
 use strict;
 use Socket;
 use XML::Parser;
@@ -198,7 +199,11 @@ for my $i (@{$struct->{content}}){
 }
 for my $row (@{$pass1_result->{tbody}}){
   my $tag = $row->[1];
-  my $is_tag = !ref($tag) && $tag =~ /^\(....,....\)$/;
+  my $is_tag = !ref($tag) && $tag =~ /\(....,....\)/;
+  if($is_tag){
+    $tag=~ s/^\s*//;
+    $tag=~ s/\s*$//;
+  }
   if(!$is_tag) {
 #################################
 #uncomment for debug
@@ -563,3 +568,4 @@ sub ReadWriteChild{
   }
   return $child, $child_pid;
 }
+

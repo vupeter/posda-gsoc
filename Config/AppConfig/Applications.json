@@ -1,4 +1,4 @@
-//  $Source: /pass/archive/PosdaAppMacConfig/AppConfig/Applications.json,v $
+//  $Source: /Users/bbennett/pass/archive/PosdaAppMacConfig/AppConfig/Applications.json,v $
 //  $Date: 2014/09/22 18:42:12 $
 //  $Revision: 1.3 $
 // 
@@ -10,7 +10,7 @@
   ],
   "Apps": {
     "DicomXmlBrowsing": {
-      "Directory": "/posda-gsoc/Config/DicomXml",
+      "Directory": "/Users/bbennett/posda-gsoc/Config/DicomXml",
       "Application" : "AppController.pl <host> <port> <dir> <color>",
       "Description" : "Browse Docbook Version of DICOM Standard",
       "WindowName" : "_new",
@@ -24,7 +24,7 @@
     },
   },
   "BomDirs": {
-    "Posda": "/posda-gsoc/Posda",
-    "DicomXml": "/posda-gsoc/DicomXml",
+    "Posda": "/Users/bbennett/posda-gsoc/Posda",
+    "DicomXml": "/Users/bbennett/posda-gsoc/DicomXml",
   },
 }
